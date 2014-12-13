@@ -1,0 +1,154 @@
+/*******************************************************************************
+*
+* Global
+*
+*******************************************************************************/
+
+body {
+	font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+  word-spacing: 0.1em;
+}
+
+/*******************************************************************************
+*
+* Home
+*
+*******************************************************************************/
+
+.home-container {
+}
+
+.home-container header {
+  text-align: center;	
+  border-bottom: 1px dashed #aaa; 
+}
+
+.home-container header h1, 
+.home-container header h2 {
+  display: inline-block; 
+}
+
+.home-container header h1:after {
+    content: ' / ';
+}
+
+.home-container header h2 {
+  background-color:#ff0;
+}
+
+.home-container .sub-heading {
+  background-color:#ff0;
+  display: inline-block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.home-container .skills,
+.home-container .projects,
+.home-container .contact {
+  border-bottom: 1px dashed #aaa;
+  padding: 0 0 1.5em 0;
+}
+
+.home-container .skills {
+	padding-top: 1em;
+}
+
+.home-container .skills li {
+  margin-bottom: 10px;
+}
+
+.home-container .projects h2 {
+  margin-top: 0;
+}
+
+.home-container .projects .thumbnail {
+	width: 220px;
+}
+
+.home-container .contact .highlighter {
+	background-color: #ff6cf7;
+	padding:0.5em;
+	margin-bottom:20px;;
+}
+
+.home-container .projects .technologies {
+	font-size: 0.8em;
+	color: #888;
+}
+
+.home-container .fun {
+	height: 210px;
+	margin-bottom: 4em;
+	padding:40px 0;
+}
+
+/*******************************************************************************
+*
+* Copyright
+*
+*******************************************************************************/
+
+.copyright {
+  padding: 30px;
+  margin-top: 50px;
+  height: 200px;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.copyright .container {
+	text-align: right;
+}
+
+/*******************************************************************************
+*
+* Assignment Home
+*
+*******************************************************************************/
+
+.assignment-home-container h1 {
+  margin-bottom:1em;
+}
+
+.assignment-home-container ul li {
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.assignment-home-container .assignment-block {
+  border: 1px solid #ddd;
+  padding: 0 1em 1em 1em;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.assignment-home-container .assignment-block img {
+	width: 100%;
+	max-width: 300px;
+}
+
+/*******************************************************************************
+*
+* Assignment
+*
+*******************************************************************************/
+
+.assignment-container h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.assignment-container h2 {
+  font-weight: bold;
+  margin-top: 60px;
+}
+.assignment-container .assignment-image {
+	margin:1.75em 0;
+}
+
+.assignment-container .highlight pre {
+	font-size: 0.75em;
+}
+
