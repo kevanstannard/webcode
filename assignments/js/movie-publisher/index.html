@@ -1,0 +1,97 @@
+---
+layout: assignment
+title: Movie Publisher
+---
+
+<p>
+  In this assignment you will display a list of movies that need to be published.
+  We assume the publishing step is a time consuming process and they must be
+  published one at a time (i.e. synchronous processing).
+</p>
+
+<p>
+  The assignment should accept an array of movies as it's input.
+</p>
+
+{% highlight javascript %}
+var movies = [
+
+  {
+    name: "The Wizard of Oz",
+    year: "1939"
+  },
+
+  {
+    name: "Citizen Kane",
+    year: "1941"
+  },
+
+  {
+    name: "The Godfather",
+    year: "1972"
+  },
+
+  {
+    name: "The Third Man",
+    year: "1949"
+  },
+
+  {
+    name: "A Hard Day's Night",
+    year: "1964"
+  }
+
+];
+{% endhighlight %}
+
+<p>
+  The movies should be listed on the screen with a <b>Pending</b> status.
+</p>
+
+<p class="assignment-image">
+  <img src="assets/publish-1.png" class="img-responsive" alt="List of items before publishing">
+</p>
+
+<p>
+  When the <code>Publish</code> button is clicked the publishing process starts:
+</p>
+
+<ul>
+  <li>The Publish button is disabled</li>
+  <li>A progress indicator shows how many movies have been published</li>
+  <li>The movie currently being published shows a status of <b>Publishing</b></li>
+  <li>When a movie has been published its status changes to <b>Done</b></li>
+</ul>
+
+<p class="assignment-image">
+  <img src="assets/publish-2.png" class="img-responsive" alt="List of items while publishing">
+</p>
+
+<p>
+  When all movies have been published the progress message indicates the
+  publishing is complete.
+</p>
+
+<p class="assignment-image">
+  <img src="assets/publish-3.png" class="img-responsive" alt="List of items after publishing">
+</p>
+
+<h2>Notes</h2>
+
+<p>
+  Use a JavaScript timer to simulate a delay while publishing each movie. 
+</p>
+
+<p>
+  The application should work on both small and large displays and should
+  adjust it's width according to the size of it's container.
+</p>
+
+
+<h2>Enhancements</h2>
+
+<p>
+  Feel free to enhance your application with nicer styles or improved
+  functionality.
+</p>
+
