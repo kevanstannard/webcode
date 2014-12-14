@@ -181,8 +181,9 @@ And add the following line at the end of the file.
 host all [postgresql-username] [your-external-ip]/32 md5
 {% endhighlight %}
 
-* [postgresql-username] is the postgresql username.
-* [your-external-ip] is the IP you will be connecting to the server from
+**[postgresql-username]** is the postgresql username.
+
+**[your-external-ip]** is the IP you will be connecting to the server from.
 
 For example if you connect as **postgres** from IP **123.456.789.123**
 then you would write. 

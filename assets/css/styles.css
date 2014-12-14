@@ -210,13 +210,18 @@ footer .copyright {
 }
 
 .post-container h3 {
-  margin-top:2em; 
+  margin-top:2em;
   font-weight: bold;
 }
 
 .post-container pre,
 .post-container code {
   font-size: medium;
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+.post-container pre {
+	padding:1.5em;
 }
 
 .post-container .tip {
