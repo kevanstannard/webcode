@@ -7,14 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-	<meta name="description" content="Hi, I'm a JavaScript developer based in Sydney specialising in JavaScript application development.">
-	<meta name="keywords" content="freelance, contractor, javascript, developer, programmer, engineer, sydney, epping">
-
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} JavaScript Assignment</title>
 
   <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
   <link href="/assets/css/styles.css" rel="stylesheet">
+  <link href="/assets/css/pygments-github.css" rel="stylesheet">
 
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 
@@ -22,7 +20,23 @@
 
 <body>
 
-{{ content }}
+<div class="container assignment-container">
+
+  <header>
+	  <ol class="breadcrumb">
+	    <li><a href="/">Home</a></li>
+	    <li><a href="/assignments">JavaScript Assignments</a></li>
+	    <li class="active">{{ page.title }}</li>
+	  </ol>
+  </header>
+
+  <h1>{{ page.title }}</h1>
+  
+  <hr>
+
+  {{ content }}
+
+</div>
 
 {% include footer.html %}
 

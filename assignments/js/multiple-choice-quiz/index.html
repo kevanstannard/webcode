@@ -1,0 +1,95 @@
+---
+layout: assignment
+title: Multiple Choice Quiz
+---
+
+<p>
+  Your task is so write a simple multiple choice quiz.
+</p>
+
+<p>
+  The quiz should take an array of questions as it's input.
+</p>
+
+{% highlight javascript %}
+var questions = [
+
+  {
+    question: "Which scientist changed the world with research into Theoretical Physics?",
+    options: [ "Marie Curie", "Albert Einstein", "Edwin Hubble" ],
+    correctAnswer: 1
+  },
+
+  {
+    question: "Which scientist became famous for breakthrough discoveries in radioactivity?",
+    options: [ "James Maxwell", "Nicolaus Copernicus", "Marie Curie" ],
+    correctAnswer: 2
+  },
+
+  {
+    question: "Which scientist is credited with the invention of the first practical telephone?",
+    options: [ "Alexander Graham Bell", "Galileo Galilei", "Stephen Hawking" ],
+    correctAnswer: 0
+  }
+
+];
+{% endhighlight %}
+
+<p>
+  There can be any number of questions, and each question can have any number
+  of possible option answers.
+</p>
+
+<p>
+  A <code>Don't Know</code> option is automatically added to each question.
+</p>
+
+<p>
+  Each question can only have one correct answer.
+</p>
+
+<p class="assignment-image">
+  <img src="assets/quiz-page-1.png" class="img-responsive" alt="Quiz Page 1 Wireframe">
+</p>
+
+<p class="assignment-image">
+  <img src="assets/quiz-page-2.png" class="img-responsive" alt="Quiz Page 2 Wireframe">
+</p>
+
+<p class="assignment-image">
+  <img src="assets/quiz-page-3.png" class="img-responsive" alt="Quiz Page 3 Wireframe">
+</p>
+
+<p>
+  At the end of the quiz display how many questions were answered
+  correctly.
+</p>
+
+<p class="assignment-image">
+  <img src="assets/quiz-page-4.png" class="img-responsive" alt="Quiz Page 4 Wireframe">
+</p>
+
+<h2>Notes</h2>
+
+<p>
+  The <code>Next</code> and <code>Back</code> buttons allow navigation
+  between the pages. All answers should be remembered.
+</p>
+
+<p>
+  The <code>Start Again</code> button on the last page resets the quiz
+  answers and starts over from the beginning.
+</p>
+
+<p>
+  The pages should work on both small and large displays and should
+  adjust their widths according to the size of the container.
+</p>
+
+<h2>Enhancements</h2>
+
+<p>
+  Feel free to enhance your application with nicer styles or improved
+  functionality
+</p>
+

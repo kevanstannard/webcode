@@ -9,14 +9,45 @@ body {
   word-spacing: 0.1em;
 }
 
+hr {
+	border-top: 1px dashed #aaa;
+}
+
+/*******************************************************************************
+*
+* Global Highlighter styles
+*
+*******************************************************************************/
+
+.highlighter-normal {
+  padding: 0.2em;
+	background-color:#ff0;
+}
+
+.highlighter-important {
+  padding: 0.2em;
+	background-color: #ff6cf7;
+}
+
+/*******************************************************************************
+*
+* Footer
+*
+*******************************************************************************/
+
+footer .copyright {
+  padding: 30px;
+  margin-top: 50px;
+  height: 200px;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
 /*******************************************************************************
 *
 * Home
 *
 *******************************************************************************/
-
-.home-container {
-}
 
 .home-container header {
   text-align: center;	
@@ -32,12 +63,7 @@ body {
     content: ' / ';
 }
 
-.home-container header h2 {
-  background-color:#ff0;
-}
-
 .home-container .sub-heading {
-  background-color:#ff0;
   display: inline-block;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -66,39 +92,37 @@ body {
 	width: 220px;
 }
 
-.home-container .contact .highlighter {
-	background-color: #ff6cf7;
-	padding:0.5em;
-	margin-bottom:20px;;
-}
-
 .home-container .projects .technologies {
 	font-size: 0.8em;
 	color: #888;
+}
+
+.home-container .contact li {
+  margin-bottom: 20px;
 }
 
 .home-container .fun {
 	height: 210px;
 	margin-bottom: 4em;
 	padding:40px 0;
+	border: 4px dotted #ddd;
 }
 
 /*******************************************************************************
 *
-* Copyright
+* Assignment Header
 *
 *******************************************************************************/
 
-.copyright {
-  padding: 30px;
-  margin-top: 50px;
-  height: 200px;
-  border-top: 1px solid #ddd;
-  background-color: #f7f7f7;
+.assignment-home-container header,
+.assignment-container header {
+	border-bottom: 1px dashed #aaa;
 }
 
-.copyright .container {
-	text-align: right;
+.assignment-home-container header .breadcrumb,
+.assignment-container header .breadcrumb {
+	background-color: #fff;
+  margin-bottom: 0;
 }
 
 /*******************************************************************************

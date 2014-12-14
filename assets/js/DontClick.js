@@ -151,13 +151,16 @@
           
         case 'stand':
           random = Math.random() * 100;
-          if (random<25) {
+          if (random<20) {
             this.playAnimation('blink');
           }
-          else if (random<50) {
+          else if (random<40) {
             this.playAnimation('happy');
           }
-          else if (random<75) {
+          else if (random<60) {
+            this.playAnimation('angry');
+          }
+          else if (random<80) {
             this.playAnimation('left');
           }
           else {
