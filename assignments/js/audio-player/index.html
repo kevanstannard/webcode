@@ -10,7 +10,7 @@ title: Audio Player
 
 <p>
   A list of audio tracks should be provided as a JavaScript array.
-  The duration is provided in seconds, but we'll just use small durations
+  The duration is provided in seconds, but you can use short durations
   for this assignment.
 </p>
 
@@ -43,21 +43,46 @@ var tracks = [
   track.
 </p>
 
-<p class="assignment-image">
-  <img src="assets/stopped.png" class="img-responsive" alt="Audio player stopped wireframe">
-</p>
-
 <p>
-  When playing it should show a pause button, 
+  When playing it should show <b>Pause</b>, <b>Previous</b> and <b>Next</b> buttons. 
 </p>
 
 <p class="assignment-image">
   <img src="assets/playing.png" class="img-responsive" alt="Audio player playing wireframe">
 </p>
 
+<p>
+  When paused it should show <b>Play</b>, <b>Previous</b> and <b>Next</b> 
+  buttons and the song title in the display should indicate that it's paused.
+</p>
+
+<p class="assignment-image">
+  <img src="assets/stopped.png" class="img-responsive" alt="Audio player stopped wireframe">
+</p>
+
+
 
 <h2>Notes</h2>
 
+<p>
+  Use a JavaScript timer to simulate the playing of the song and update the
+  progress bar. 
+</p>
+
+<p>
+  Display the current elapsed time of the song in minutes and seconds
+  alongside the progress bar.
+</p>
+
+<p>
+  The application should work on both small and large displays and should
+  adjust it's width according to the size of it's container.
+</p>
+
+<p>
+  When the last song finishes, the application should start playing the first
+  song again.
+</p>
 
 <h2>Enhancements</h2>
 

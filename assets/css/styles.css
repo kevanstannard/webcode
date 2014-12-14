@@ -135,11 +135,6 @@ footer .copyright {
   margin-bottom:1em;
 }
 
-.assignment-home-container ul li {
-	padding: 20px 0;
-	border-bottom: 1px solid #eee;
-}
-
 .assignment-home-container .assignment-block {
   border: 1px solid #ddd;
   padding: 0 1em 1em 1em;
@@ -148,8 +143,8 @@ footer .copyright {
 }
 
 .assignment-home-container .assignment-block img {
-	width: 100%;
-	max-width: 300px;
+  width: 100%;
+  max-width: 300px;
 }
 
 /*******************************************************************************
