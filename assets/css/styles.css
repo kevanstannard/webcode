@@ -171,3 +171,58 @@ footer .copyright {
 	font-size: 0.75em;
 }
 
+/*******************************************************************************
+*
+* Post Header
+*
+*******************************************************************************/
+
+.post-home-container header,
+.post-container header {
+  border-bottom: 1px dashed #aaa;
+}
+
+.post-home-container header .breadcrumb,
+.post-container header .breadcrumb {
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+/*******************************************************************************
+*
+* Post Home
+*
+*******************************************************************************/
+
+.post-home-container h1 {
+  margin-bottom:1em;
+}
+
+/*******************************************************************************
+*
+* Post
+*
+*******************************************************************************/
+
+.post-container h2 {
+  margin-top:3em;	
+  font-weight: bold;
+}
+
+.post-container h3 {
+  margin-top:2em; 
+  font-weight: bold;
+}
+
+.post-container pre,
+.post-container code {
+  font-size: medium;
+}
+
+.post-container .tip {
+  background-color: #fee;
+  margin: 1em 0;
+  padding: 1em 2em;
+  font-style: italic;
+}
+
