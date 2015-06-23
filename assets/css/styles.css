@@ -5,12 +5,11 @@
 *******************************************************************************/
 
 body {
-	font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
-  word-spacing: 0.1em;
+	font-family: 'Open Sans', sans-serif;
 }
 
 hr {
-	border-top: 1px dashed #aaa;
+	border-top: 1px solid #aaa;
 }
 
 /*******************************************************************************
@@ -20,12 +19,12 @@ hr {
 *******************************************************************************/
 
 .highlighter-normal {
-  padding: 0.2em;
+  padding: 0.2rem;
 	background-color:#ff0;
 }
 
 .highlighter-important {
-  padding: 0.2em;
+  padding: 0.2rem;
 	background-color: #ff6cf7;
 }
 
@@ -50,51 +49,16 @@ footer .copyright {
 *******************************************************************************/
 
 .home-container header {
-  text-align: center;	
-  border-bottom: 1px dashed #aaa; 
-}
-
-.home-container header h1, 
-.home-container header h2 {
-  display: inline-block; 
-}
-
-.home-container header h1:after {
-    content: ' / ';
+	margin-bottom: 2rem;
 }
 
 .home-container .sub-heading {
   display: inline-block;
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin: 2rem 0;
 }
 
-.home-container .skills,
-.home-container .projects,
-.home-container .contact {
-  border-bottom: 1px dashed #aaa;
-  padding: 0 0 1.5em 0;
-}
-
-.home-container .skills {
-	padding-top: 1em;
-}
-
-.home-container .skills li {
-  margin-bottom: 10px;
-}
-
-.home-container .projects h2 {
-  margin-top: 0;
-}
-
-.home-container .projects .thumbnail {
-	width: 220px;
-}
-
-.home-container .projects .technologies {
-	font-size: 0.8em;
-	color: #888;
+.home-container .project {
+	margin-bottom: 4rem;
 }
 
 .home-container .contact li {
@@ -103,7 +67,7 @@ footer .copyright {
 
 .home-container .fun {
 	height: 210px;
-	margin-bottom: 4em;
+	margin-bottom: 4rem;
 	padding:40px 0;
 	border: 4px dotted #ddd;
 }
@@ -132,19 +96,21 @@ footer .copyright {
 *******************************************************************************/
 
 .assignment-home-container h1 {
-  margin-bottom:1em;
+  margin-bottom:1rem;
 }
 
-.assignment-home-container .assignment-block {
-  border: 1px solid #ddd;
-  padding: 0 1em 1em 1em;
+.assignment-home-container ul {
+	display: flex;
+	/*justify-content: space-between;*/
+	flex-wrap: wrap;
+}
+
+.assignment-home-container ul li {
+	max-width: 250px;
+	border: 1px solid #ddd;
+  padding: 0 2rem 2rem 2rem;
+	margin: 1rem;
   background-color: #f7f7f7;
-  margin-bottom: 20px;
-}
-
-.assignment-home-container .assignment-block img {
-  width: 100%;
-  max-width: 300px;
 }
 
 /*******************************************************************************
@@ -155,8 +121,8 @@ footer .copyright {
 
 .assignment-container h1 {
   font-weight: bold;
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .assignment-container h2 {
@@ -164,11 +130,7 @@ footer .copyright {
   margin-top: 60px;
 }
 .assignment-container .assignment-image {
-	margin:1.75em 0;
-}
-
-.assignment-container .highlight pre {
-	font-size: 0.75em;
+	margin:1.75rem 0;
 }
 
 /*******************************************************************************
@@ -195,7 +157,7 @@ footer .copyright {
 *******************************************************************************/
 
 .post-home-container h1 {
-  margin-bottom:1em;
+  margin-bottom:1rem;
 }
 
 /*******************************************************************************
@@ -205,12 +167,12 @@ footer .copyright {
 *******************************************************************************/
 
 .post-container h2 {
-  margin-top:3em;	
+  margin-top:3rem;
   font-weight: bold;
 }
 
 .post-container h3 {
-  margin-top:2em;
+  margin-top:2rem;
   font-weight: bold;
 }
 
@@ -221,13 +183,12 @@ footer .copyright {
 }
 
 .post-container pre {
-	padding:1.5em;
+	padding:1.5rem;
 }
 
 .post-container .tip {
   background-color: #fee;
-  margin: 1em 0;
-  padding: 1em 2em;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
   font-style: italic;
 }
-
