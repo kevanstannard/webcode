@@ -5,42 +5,28 @@
 *******************************************************************************/
 
 body {
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  margin: 2em 0 1em 0;
+  color: #2ECC40;
+}
+
+h3 {
+  margin-top: 0;
 }
 
 hr {
 	border-top: 1px solid #aaa;
 }
 
-/*******************************************************************************
-*
-* Global Highlighter styles
-*
-*******************************************************************************/
-
-.highlighter-normal {
-  padding: 0.2rem;
-	background-color:#ff0;
-}
-
-.highlighter-important {
-  padding: 0.2rem;
-	background-color: #ff6cf7;
-}
-
-/*******************************************************************************
-*
-* Footer
-*
-*******************************************************************************/
-
-footer .copyright {
-  padding: 30px;
-  margin-top: 50px;
-  height: 200px;
-  border-top: 1px solid #ddd;
-  background-color: #f7f7f7;
-}
 
 /*******************************************************************************
 *
@@ -48,28 +34,14 @@ footer .copyright {
 *
 *******************************************************************************/
 
-.home-container header {
-	margin-bottom: 2rem;
+.projects .project {
+  margin-bottom: 2em;
 }
 
-.home-container .sub-heading {
-  display: inline-block;
-  margin: 2rem 0;
-}
-
-.home-container .project {
-	margin-bottom: 4rem;
-}
-
-.home-container .contact li {
-  margin-bottom: 20px;
-}
-
-.home-container .fun {
-	height: 210px;
-	margin-bottom: 4rem;
-	padding:40px 0;
-	border: 4px dotted #ddd;
+.skills .row,
+.contact .row,
+.projects .row {
+  margin-bottom: 0.5em;
 }
 
 /*******************************************************************************
